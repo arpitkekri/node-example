@@ -7,6 +7,5 @@ myLogModule.error("404 Not Found");
 myLogModule.warning(`This is a Warning`);
 
 var person = require('./data.js');
-console.log(person.firstName + ' ' + person.lastName);
-
-
+var person1 = new person('James', 'Bond');
+console.log(person1.fullName());
