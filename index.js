@@ -16,5 +16,8 @@ solveRect(3,5);
 solveRect(0,5);
 solveRect(-3,5);
 
-require('./logger'); // This will print logger message
-// console.log(module);
+var msg = require('./logger.js');
+msg.logger('Hello World');
+
+var myLogModule = require('./log.js'); //.js is not a compulsory thing
+myLogModule.info('Node.js started');
