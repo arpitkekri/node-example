@@ -1,1 +1,2 @@
-Node Package Manager/node_modules/
+# Here I can specify path to files or folder which i want to ignore and do not want to push these files on github
+Node Package Manager/node_modules/ 
