@@ -1,2 +1,2 @@
 # node-example
-testing repo
+Node.js learning repository
