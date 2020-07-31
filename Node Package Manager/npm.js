@@ -1,0 +1,1 @@
+console.log("This is tutorial for npm 1.0.0");
